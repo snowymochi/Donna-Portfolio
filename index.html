@@ -23,6 +23,29 @@
     <link rel="stylesheet" href="./css/utilities.css">
 
 		<script defer src="./js/script.js"></script>
+	<!--adding scroll button Javascript -->	
+		<script> // Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+		</script>
 	</head>
 	<body>
     <!-- NAVBAR -->
@@ -66,7 +89,7 @@
         <div id="portfolio-header-text-container">
             <div class="header-text">
               <span class="main-title">Hey, I'm Donna!</span>
-              <div class="body-text">I'm a Data Analyst with a background in Tax and Accounting working with Silicon Valley's high tech and hypergrowth startups. After 9 years, I've decided to move to a data-centric role and here's my portfolio! I have Advanced Excel, SQL, and PowerBI skills. I started an Etsy recently to upskill my UX Design and Research Skills. </div>
+              <div class="body-text">As an experienced Data Analyst with a solid background in Tax and Accounting, I have had the privilege of working with some of Silicon Valley's most prominent high-tech and hyper-growth startups. After nearly a decade of honing my skills in the aforementioned fields, I have decided to take my talents to a data-centric role. My extensive proficiency in Advanced Excel, SQL, and PowerBI makes me a valuable asset in any data-driven team. Furthermore, I have recently undertaken an Etsy venture to upskill my UX Design and Research skills, demonstrating my unyielding commitment to learning and professional development. Please feel free to explore my portfolio to learn more about my professional expertise and how I can add value to your team. </div>
             </div>
             <a class="button" id="my-work-link">
               <span class="button-text">Check out my projects</span> 
@@ -74,6 +97,8 @@
             </a>
         </div>
       </div>
+	    <!-- Button!!-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
       <!-- ABOUT SECTION -->
       <!-- 
@@ -122,7 +147,7 @@
             <img src="./assets/images/ice cream photo.png" class="project-image">
             <div class="project-card-text-container">
               <div class="subheader-text project-title">Talenti</div>
-              <div class="body-text project-card-text">Looking at the popularity of Talenti Ice Cream Data Organic & Nuts Flavors </div>
+              <div class="body-text project-card-text">Analyzing the popularity of Talenti ice cream including Organic & Nuts Flavors </div>
             </div>
             <a class="button" href="./project-pages/project-template.html">
               <span class="button-text">Read More</span>
@@ -162,7 +187,7 @@
 
         This should be the same across all pages.
       -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+      <a class="icon-link" target="_blank" href="https://linkedin.com/donnali6">
         <image src="./assets/icons/instagram.svg" class="footer-icon"/>
       </a>
       <!-- 
