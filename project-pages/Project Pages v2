@@ -44,13 +44,13 @@
 
           (this should be the same across all pages)
          -->
-        <span class="nav-title">Portfolio Title</span>
+        <span class="nav-title">Return to Home</span>
         <!-- 
           TODO - Change the email after 'mailto:' to your email address for contact 
         
           (this should be the same across all pages)
         -->
-        <a class="button" href="mailto:whitevans.eth@gmail.com">
+        <a class="button" href="mailto:donnali682@gmail.com">
           <span class="button-text">Contact Me</span>
         </a>
       </a>
