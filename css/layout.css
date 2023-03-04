@@ -14,7 +14,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 25px;
-  background-color: white;
+  background-color: rgb(204, 245, 255);
   color: black;
   font-size: 25px;
 }
@@ -68,7 +68,7 @@ body {
 .banner-content {
   max-width: 800px;
   margin: 0 auto;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* optional text shadow */
+  text-shadow: 2px 2px 8px rgba(135, 206, 235, 1); /* optional text shadow */
 }
 
 #portfolio-header-image-container {
