@@ -43,6 +43,16 @@ body {
   align-items: center;
   color: #fff; /* set the text color */
   text-align: center;
+ 
+}
+#portfolio-header h1 {
+  font-size: 48px;
+  margin-bottom: 0;
+}
+
+#portfolio-header p {
+  font-size: 24px;
+  margin-top: 0;
 }
 
 #portfolio-header-image-container {
