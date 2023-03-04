@@ -27,7 +27,9 @@ body {
   gap: 96px;
 }
 
-
+.main-content > div {
+  flex-grow: 1;
+}
 
 
 /* Portfolio Header */
