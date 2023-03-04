@@ -19,10 +19,35 @@ body {
   font-size: 25px;
 }
  
+
+
+<a href="#" class="dark-mode">Dark Mode</a>
+
 .dark-mode {
-  background-color: black;
-  color: white;
+	box-shadow: 0px 10px 14px -7px #2cdaf5;
+	background:linear-gradient(to bottom, #38bff0 5%, #0c1314 100%);
+	background-color:#38bff0;
+	border-radius:24px;
+	border:4px solid #2ba1f0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #f060b6;
 }
+.dark-mode:hover {
+	background:linear-gradient(to bottom, #0c1314 5%, #38bff0 100%);
+	background-color:#0c1314;
+}
+.dark-mode:active {
+	position:relative;
+	top:1px;
+}
+        
 
 
 /* Main Page Layout */
