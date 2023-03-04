@@ -23,7 +23,7 @@ body {
 #main-content {
   margin: 225px 425px;
   display: flex;
-  flex-direction: column;
+  flex-direction: flex;
   gap: 96px;
 }
 
@@ -57,7 +57,9 @@ body {
   flex-basis: 50%;
 }
 
-
+.portfolio-header-text-container > div {
+  flex-grow: 1;
+}
 
 
 /* About Section */
