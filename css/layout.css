@@ -27,10 +27,6 @@ body {
   gap: 96px;
 }
 
-.main-content > div {
-  flex-grow: 1;
-}
-
 
 /* Portfolio Header */
 
@@ -59,9 +55,6 @@ body {
   flex-basis: 50%;
 }
 
-.portfolio-header-text-container > div {
-  flex-grow: 1;
-}
 
 
 /* About Section */
