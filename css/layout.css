@@ -99,7 +99,7 @@ body {
   .photo-card {
   display: inline-block;
   width: 31%;
-    max-width: 350px; 
+    max-width: 50px; 
   margin: 1.5%;
   vertical-align: top;
 }
