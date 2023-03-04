@@ -45,14 +45,10 @@ body {
   text-align: center;
  
 }
-#portfolio-header h1 {
-  font-size: 48px;
-  margin-bottom: 0;
-}
-
-#portfolio-header p {
-  font-size: 24px;
-  margin-top: 0;
+.banner-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* optional text shadow */
 }
 
 #portfolio-header-image-container {
