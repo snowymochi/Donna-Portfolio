@@ -99,12 +99,13 @@ body {
   .photo-card {
   display: inline-block;
   width: 30%;
+    max-width: 350px; 
   margin: 1.5%;
   vertical-align: top;
 }
 
     .project-card-text-container {
-      flex-direction: column;
+      flex-direction: row;
       display: inline-block;
       gap: 16px
     }
