@@ -51,7 +51,7 @@ body {
 .portfolio-header-image {
   width: 100%;
   height: auto;
-  objecct-fit: contain;
+  object-fit: contain;
 }
 
 #portfolio-header-text-container {
