@@ -33,6 +33,9 @@ body {
 /* Portfolio Header */
 
 #portfolio-header {
+  background-image:  url(="./assets/images/AdobeStock_327542407.jpeg");
+  background-size: cover;
+  background-position: center;
   display: flex;
   gap: 20px;
   align-items: center;
