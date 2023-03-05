@@ -12,8 +12,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-image: url("https://snowymochi.github.io/Donna-Portfolio/assets/images/ocean and mountain.jpg");
-  background-size: cover;
+ 
   background-position: center;
   background-repeat: no-repeat;
   background-color: rgb(204, 245, 255);
@@ -163,6 +162,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+	 background-image: url("https://snowymochi.github.io/Donna-Portfolio/assets/images/ocean and mountain.jpg");
+  background-size: cover;
 
 }
 
@@ -176,6 +177,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+	
 }
 
 .project-details-content {
