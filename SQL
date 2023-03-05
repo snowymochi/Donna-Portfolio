@@ -1,0 +1,166 @@
+
+
+<!-- 
+  IMPORTANT! 
+  
+  Keep this file unchanged to use as a template for all future project pages. 
+
+  For every new project you add to your portfolio, make a copy of this file in the
+  'project-pages' folder with a name related to the project.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <!-- 
+      TODO
+
+      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      and change the name of the image below to match the uploaded one
+
+      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+
+      This should be the same across all pages.
+     -->
+     <link rel="icon" href="../assets/images/kitty.jfif" />
+     <title>Donna's Portfolio</title>
+    <meta name="description" content="A portfolio for Donna's UX Designs and Data Analytics.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+     
+        <span class="nav-title">Home</span>
+  
+        <a class="button" href="mailto:donnali682@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+          <!-- 
+            TODO
+
+            - Change the 'main-title' text to the name of your project
+            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
+            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+          -->
+        <div class="main-title">French Bakery Croissant Sales Insights - 2022 Qtrly</div>
+        <div class="body-text">Tableau dashboard to analyze Qtrly sales for 4 types of croissants (Regular, Chocolate, Almond, Chocolate Almond). Inspired by my Paris trip in the summer of 2022 and my PT work at a cream puff pastry shop.</div>
+        <image class="project-header-image" src="../assets/images/French Bakery Dashboard in Tableau.PNG">
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <!-- 
+        TODO
+
+        - Change the 'subheader-text' to whatever header you want for project details
+        - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
+      -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details / Background</div>
+        <div class="project-details-content">
+          <div class="body-text">As an experienced data analyst, I conducted a quantitative analysis of the quarterly sales data for four types of croissants at a French bakery using Tableau. The French Bakery Croissant Sales Insights - 2022 Qtrly dashboard showcases a range of visualizations and analyses based on the data, including:
+
+<ul>
+  <li>Total quarterly sales: The total sales for the quarter was $138,245.95.</li>
+  <li>Croissant type breakdown: Regular croissants had the highest sales, contributing 47.2% of the total sales, followed by chocolate croissants (26.9%), almond croissants (17.3%), and chocolate almond croissants (8.6%).</li>
+  <li>Sales by day of the week: Fridays had the highest sales ($26,649.61), followed by Thursdays ($26,460.54), and Saturdays ($25,473.64).</li>
+  <li>Sales by hour of the day: The hours between 8:00 AM and 10:00 AM had the highest sales, contributing 24.6% of the total sales.</li>
+</ul>
+<p>Based on these insights, the bakery can make data-driven decisions regarding product offerings, marketing strategies, and inventory management to improve its overall performance and profitability. For example, the bakery may consider:</p>
+<ul>
+  <li>Offering promotions on regular and chocolate croissants on Thursdays and Fridays, as those days had the highest sales.</li>
+  <li>Increasing their inventory of regular croissants during peak sales hours in the morning to meet customer demand.</li>
+</ul>
+<p>Overall, the French Bakery Croissant Sales Insights - 2022 Qtrly project showcases my expertise in quantitative analysis, data visualization, and my ability to turn complex data sets into clear and actionable insights for businesses.</p></div>
+          <div class="body-text">...</div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            <!-- 
+              TODO
+
+              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/french pastry 3.jpeg" class="gallery-image">
+              <span class="image-caption">Give your image a caption. People love context.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/french pastries.jpeg" class="gallery-image">
+              <span class="image-caption">Give your image a caption. People love context.</span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/french bakery.jpeg" class="gallery-image">
+              <span class="image-caption">Give your image a caption. People love context.</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- 
+        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+
+        This should be the same across all pages.
+      -->
+       <a class="icon-link" target="_blank" href="https://linkedin.com/donnali6">
+        <image src="./assets/icons/LinkedIn Logo.PNG" class="footer-icon"/>
+      </a>
+     
+      <a class="icon-link" target="_blank" href="https://https://www.etsy.com/shop/StickyDangoArt">
+        <image src="./assets/icons/etsy.png" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" href="mailto:donnali682@gmail.com">
+        <image src="./assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+<!-- Button!!-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	</body>
+</html>
