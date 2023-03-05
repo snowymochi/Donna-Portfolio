@@ -17,6 +17,8 @@ body {
   background-color: rgb(204, 245, 255);
   color: black;
   font-size: 35px;
+ background-image: url(./assets/images/ocean and mountain.jpg);
+  background-size: cover;
 }
  
 
@@ -106,8 +108,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
-   background-image: url(./assets/images/ocean and mountain.jpg);
-  background-size: cover;
+  
 }
 
 .about-section-content {
