@@ -69,6 +69,8 @@ body {
   max-width: 800px;
   margin: 0 auto;
   text-shadow: 2px 2px 8px rgba(135, 206, 235, 1); /* optional text shadow */
+	
+  background: linear-gradient(0deg, rgba(133,178,218,95) 0%, rgba(133,178,218,95) 100%);
 }
 
 
@@ -161,8 +163,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  background: rgb(34,191,195);
-  background: linear-gradient(0deg, rgba(34,191,195,0.8911939775910365) 0%, rgba(135,11,242,1) 100%);
+
 }
 
 .project-header-image {
