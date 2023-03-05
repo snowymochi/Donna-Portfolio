@@ -53,10 +53,12 @@ body {
 /* Main Page Layout */
 
 #main-content {
-  margin: 100%;
+  margin: 225px 425px;
   display: flex;
   flex-direction: column;
   gap: 96px;
+background: rgb(148,177,233);
+background: linear-gradient(90deg, rgba(148,177,233,89) 0%, rgba(148,177,233,89) 100%);
 }
 
 
