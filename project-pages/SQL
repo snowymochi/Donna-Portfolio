@@ -14,16 +14,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-    <!-- 
-      TODO
-
-      Upload your Unemployable (or whatever photo you like) to the assets/images folder
-      and change the name of the image below to match the uploaded one
-
-      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
-
-      This should be the same across all pages.
-     -->
+   
      <link rel="icon" href="../assets/images/kitty.jfif" />
      <title>Donna's Portfolio</title>
     <meta name="description" content="A portfolio for Donna's UX Designs and Data Analytics.">
@@ -60,7 +51,7 @@
             - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
             - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
           -->
-        <div class="main-title">French Bakery Croissant Sales Insights - 2022 Qtrly</div>
+        <div class="main-title">SQL Project</div>
         <div class="body-text">Tableau dashboard to analyze Qtrly sales for 4 types of croissants (Regular, Chocolate, Almond, Chocolate Almond). Inspired by my Paris trip in the summer of 2022 and my PT work at a cream puff pastry shop.</div>
         <image class="project-header-image" src="../assets/images/French Bakery Dashboard in Tableau.PNG">
       </div>
