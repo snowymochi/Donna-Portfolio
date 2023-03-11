@@ -52,14 +52,11 @@
 3) What are most popular listings?
 4) What are top ten 10 neighborhoods that have the most superhosts? 
 		  </div>
- <div class="subheader-text">Data Collection</div>
-		   <div class="body-text"> Detailed Listings data is pulled from Inside Airbnb by searching for "Tokyo."  http://insideairbnb.com/get-the-data 
-			   Listings: Includes data on all the details related to lissting and host info, consisting of 75 columns and 9,787 rows.  </div>
+<div class="subheader-text">Data Collection</div>
+<div class="body-text"> Detailed Listings data is pulled from Inside Airbnb by searching for "Tokyo."  http://insideairbnb.com/get-the-data 
+Listings: Includes data on all the details related to lissting and host info, consisting of 75 columns and 9,787 rows.  </div>
 	 
-		  
-		  
-		  
-		  </div>
+	 	  </div>
         <image class="project-header-image" src="../assets/images/Tokyoairbnb.jpg">
       </div>
 
@@ -71,9 +68,13 @@
         - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
       -->
       <div id="project-details">
-        <div class="subheader-text">Project Details / Background</div>
-        <div class="project-details-content">
-          <div class="body-text">As an experienced data analyst, I conducted a quantitative analysis of the quarterly sales data for four types of croissants at a French bakery using Tableau. The French Bakery Croissant Sales Insights - 2022 Qtrly dashboard showcases a range of visualizations and analyses based on the data, including:
+        <div class="subheader-text">Analysis</div>
+        <div class="project-details-content"> Issues converting Excel into SQL to load into SQL server: Excel has issues with CSV files that contains international language data. So the problem was occuring during the importing of the CSV file because by default, it doesn't support UTF-8 data. https://www.isurvey.soton.ac.uk/help/opening-csv-files-containing-international-language-data/index.html I was able to find a workaround after some research. Opened Excel and then loaded the data in UTF-8 and comma format. This worked! Next in order to proceed to converting CSV to SQL, I downloaded Notepad++ and added the "CSV Lint" plug-in for Notepad++ via https://github.com/BdR76/CSVLint/. I was able to successfully convert the CSV to SQL. 
+		   <div class="body-text">
+SSMS: SSMS 2022 has an error importing data so after some digging, I was able to uninstall SSMS 2022 to SSMS 2019 and was able to import the SQL file. Next, I encountered an error when trying to query from the airbnb database despite a few refreshes. After restarting SSMS, I was able to query the data. </div>
+			
+ 
+          <div class="body-text"> xyz
 
 <ul>
   <li>Total quarterly sales: The total sales for the quarter was $138,245.95.</li>
@@ -87,7 +88,7 @@
   <li>Increasing their inventory of regular croissants during peak sales hours in the morning to meet customer demand.</li>
 </ul>
 <p>Overall, the French Bakery Croissant Sales Insights - 2022 Qtrly project showcases my expertise in quantitative analysis, data visualization, and my ability to turn complex data sets into clear and actionable insights for businesses.</p></div>
-          <div class="body-text">...</div>
+          <div class="body-text">xyz</div>
         </div>
       </div>
 
