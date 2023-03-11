@@ -66,12 +66,10 @@ body {
 
 .banner-content {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 50px;
   text-shadow: 2px 2px 8px rgba(135, 206, 235, 1); /* optional text shadow */
 
 }
-
-
 
 
 #portfolio-header-image-container {
