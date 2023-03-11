@@ -56,7 +56,7 @@
 <div class="body-text"> Detailed Listings data is pulled from Inside Airbnb by searching for "Tokyo."  http://insideairbnb.com/get-the-data 
 Listings: Includes data on all the details related to lissting and host info, consisting of 75 columns and 9,787 rows.  </div>
 	 
-	 	  </div>
+	 	  
         <image class="project-header-image" src="../assets/images/Tokyoairbnb.jpg">
       </div>
 
@@ -69,8 +69,8 @@ Listings: Includes data on all the details related to lissting and host info, co
       -->
       <div id="project-details">
         <div class="subheader-text">Analysis</div>
-        <div class="project-details-content"> Issues converting Excel into SQL to load into SQL server: 
-		   <div class="body-text">Excel has issues with CSV files that contains international language data. So the problem was occuring during the importing of the CSV file because by default, it doesn't support UTF-8 data. https://www.isurvey.soton.ac.uk/help/opening-csv-files-containing-international-language-data/index.html I was able to find a workaround after some research. Opened Excel and then loaded the data in UTF-8 and comma format. This worked! Next in order to proceed to converting CSV to SQL, I downloaded Notepad++ and added the "CSV Lint" plug-in for Notepad++ via https://github.com/BdR76/CSVLint/. I was able to successfully convert the CSV to SQL. </div>
+         
+	   <div class="body-text">Issues converting Excel into SQL to load into SQL server: Excel has issues with CSV files that contains international language data. So the problem was occuring during the importing of the CSV file because by default, it doesn't support UTF-8 data. https://www.isurvey.soton.ac.uk/help/opening-csv-files-containing-international-language-data/index.html I was able to find a workaround after some research. Opened Excel and then loaded the data in UTF-8 and comma format. This worked! Next in order to proceed to converting CSV to SQL, I downloaded Notepad++ and added the "CSV Lint" plug-in for Notepad++ via https://github.com/BdR76/CSVLint/. I was able to successfully convert the CSV to SQL. </div>
 			   <div class="body-text">
 SSMS: SSMS 2022 has an error importing data so after some digging, I was able to uninstall SSMS 2022 to SSMS 2019 and was able to import the SQL file. Next, I encountered an error when trying to query from the airbnb database despite a few refreshes. After restarting SSMS, I was able to query the data. </div>
 			
