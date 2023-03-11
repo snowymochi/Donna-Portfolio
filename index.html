@@ -14,27 +14,17 @@
 
 		<script defer src="./js/script.js"></script>
 	<!--adding scroll button Javascript -->	
-		<script> // Get the button
-var mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 2000px from the top of the document, show the button
-window.onscroll = function() {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+		 <script>
+      function addClickListener() {
+        const btn = document.getElementById("mybtn");
+        btn.addEventListener("click", function() {
+          alert("Button clicked!");
+        });
+      }
+      
+      document.addEventListener("DOMContentLoaded", function() {
+        addClickListener();
+      });
 		</script>
 	</head>
 	<body>
