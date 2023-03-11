@@ -1,7 +1,8 @@
 body {
-  font-family: Quicksand;
-  src: url("".."../assets/Quicksand-VariableFont_wght.ttf") format('truetype');
+  font-family: 'Quicksand', sans-serif;
+  src: url('../../assets/Quicksand-VariableFont_wght.ttf") format('truetype');
 }
+
 
 .nav-title {
   font-weight: 700;
