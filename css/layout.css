@@ -15,7 +15,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   color: black !important; 
-  font-size: 22px;
+  font-size: 15px;
 }
 <a href="#" class="dark-mode">Dark Mode</a>
 .dark-mode {
@@ -80,14 +80,14 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  font-size: 30px;	
+  font-size: 15px;	
   
 }
 .about-section-content {
   display: flex;
   flex-direction: column;
   gap: 34px;
-  font-size: 30px;
+  font-size: 15px;
 }
 /* Project Section */
 #my-work-section {
