@@ -1,14 +1,12 @@
 * {
   box-sizing: border-box;
 }
-
 html {
   text-size-adjust: none;
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
   -ms-text-size-adjust: none;
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -17,11 +15,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   color: black !important; 
-  font-size: 35px;
+  font-size: 32px;
 }
-
 <a href="#" class="dark-mode">Dark Mode</a>
-
 .dark-mode {
 	box-shadow: 0px 10px 14px -7px #2cdaf5;
 	background:linear-gradient(to bottom, #38bff0 5%, #0c1314 100%);
@@ -32,7 +28,7 @@ body {
 	cursor:pointer;
 	color:white;
 	font-family:Quicksand;
-	font-size:15px;
+	font-size:25px;
 	font-weight:bold;
 	padding:13px 32px;
 	text-decoration:none;
@@ -47,31 +43,19 @@ body {
 	top:1px;
 }
         
-
-
 /* Main Page Layout */
-
 #main-content {
   margin: 225px 425px;
   display: flex;
   flex-direction: column;
   gap: 96px;
 }
-
-
-
-
 /* Portfolio Header */
-
-
 .banner-content {
   max-width: 800px;
   margin: 0 auto;
   text-shadow: 2px 2px 8px rgba(135, 206, 235, 1); /* optional text shadow */
-
 }
-
-
 #portfolio-header-image-container {
   display: flex;
   flex-direction: column;
@@ -79,74 +63,56 @@ body {
   flex-basis: 50%;
   margin-left: 0;
 }
-
 .portfolio-header-image {
   width: 100%;
   height: auto;
   object-fit: contain;
 }
-
-#portfolio-header-text-fcontainer {
+#portfolio-header-text-container {
   display: flex;
   flex-direction: column;
   gap: 34px;
   flex-basis: 50%;
   margin-left: -50;
 }
-
-
-
-
 /* About Section */
-
 #about-section {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  font-size: 20px;	
+  font-size: 30px;	
   
 }
-
 .about-section-content {
   display: flex;
   flex-direction: column;
   gap: 34px;
-  font-size: 20px;
+  font-size: 30px;
 }
-
-
-
-
 /* Project Section */
-
 #my-work-section {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-
 .projects-container {
   display: flex;
   gap: 34px 16px;
   flex-wrap: wrap;
 }
-
     /* Project Cards */
-
     .project-card {
       max-width: calc((100% - 32px) / 3);
       display: flex;
       flex-direction: column;
       gap: 34px;
     }
-
     .project-card-text-container {
       flex-direction: column;
      color:black;
 	    display: flex;
       gap: 16px
     }
-
     .project-image {
       width: 100%;
       height: 200px;
@@ -159,27 +125,19 @@ body {
       object-fit: cover;
       object-position: center;
     }
-
-
-
 /* Project Pages */
-
 #project-header {
   display: flex;
  color:black;
 	flex-direction: column;
   gap: 16px;
 	
-
 }
-
 .project-header-image {
  color:black;
 	width: 100%;
   height: auto;
-
 }
-
 #project-details {
   color:black;
 	display: flex;
@@ -187,88 +145,71 @@ body {
   gap: 16px;
 	
 }
-
 .project-details-content {
   display: flex;
   flex-direction: column;
   gap: 34px;
 }
-
     /* Project Gallery */
-
     #project-gallery {
       display: flex;
       flex-direction: column;
       gap: 16px;
     }
-
     .project-gallery-content {
       display: flex;
       flex-wrap: wrap;
       gap: 34px 16px;
     }
-
     .gallery-image-container {
       width: 100%;
       display: flex;
       flex-direction: column;
       gap: 10px;
     }
-
     .gallery-image-container.half-width {
       width: calc((100% - 16px) / 2);
     }
-
     .gallery-image {
       width: 100%;
       height: auto;
     }
-
-
 /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1600px) {
   #main-content {
     margin: 225px 275px;
   }
 }
-
 /* Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1200px) {
   #main-content {
     margin: 225px 175px;
   }
 }
-
 /* Large devices (laptops/desktops, 1000px and below) */
 @media only screen and (max-width: 1000px) {
   #main-content {
     margin: 225px 75px;
   }
 }
-
 /* Small devices (portrait tablets and large phones, 800px and below) */
 @media only screen and (max-width: 800px) {
   #main-content {
     margin: 150px 50px;
   }
-
   #portfolio-header {
     flex-direction: column;
   }
-
   .project-card {
     max-width: calc((100% - 16px) / 2);
   }
 }
-
 /* Small devices (portrait tablets and large phones, 600px and below) */
 @media only screen and (max-width: 600px) {
   #main-content {
     margin: 125px 20px;
   }
-
   .project-card {
     max-width: 100%;
   }
 }
-
