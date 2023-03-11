@@ -46,11 +46,13 @@
             - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
             - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
           -->
-        <div class="main-title">Tokyo Airbnb (2022) Data Analysis using SQL</div>
-		   <div class="subheader-text">Intro</div>
+       <div style="text-align: center;">
+  <div class="main-title">Tokyo Airbnb (2022) Data Analysis using SQL</div>
+</div>
+		   <div class="subheader-text">Introduction</div>
         <div class="body-text"> In Nov. 2022, I visited Tokyo, Japan after 7 years! The trip inspired this dashboard. My first ever trip to Japan was in 2015. It was my very first solo travel ever. Back then I was able to secure various Airbnbs for ~$55-$75 per night in various districts of Tokyo & later also Osaka. After I was impacted by workforce reduction at Domino Data Lab in early November, I decided to do a last minute trip to Tokyo. Borders reopened for tourists in October, initially for travelers traveling w/in tour groups only and later for all in the US and certain Asian countries like Hong Kong and Taiwan. 
 		  </div>
-	      <div class="subheader-text">Questions used to analyze data</div>
+	      <div class="subheader-text">Questions used to develop data insights</div>
 		 <div class="body-text"> 
 <li>1) What are the top five most expensive neighborhoods in Tokyo?
 <li>2) What are the most popular property types?
@@ -76,13 +78,13 @@ Listings: Includes data on all the details related to lissting and host info, co
       <div id="project-details">
         <div class="subheader-text">Analysis</div>
          
-	   <div class="body-text">Issues converting Excel into SQL to load into SQL server: Excel has issues with CSV files that contains international language data. So the problem was occuring during the importing of the CSV file because by default, it doesn't support UTF-8 data. https://www.isurvey.soton.ac.uk/help/opening-csv-files-containing-international-language-data/index.html I was able to find a workaround after some research. Opened Excel and then loaded the data in UTF-8 and comma format. This worked! Next in order to proceed to converting CSV to SQL, I downloaded Notepad++ and added the "CSV Lint" plug-in for Notepad++ via https://github.com/BdR76/CSVLint/. I was able to successfully convert the CSV to SQL. </div>
+	      <div class="body-text"><b>Issues converting Excel into SQL to load into SQL server: </b> Excel has issues with CSV files that contains international language data. So the problem was occuring during the importing of the CSV file because by default, it doesn't support UTF-8 data. https://www.isurvey.soton.ac.uk/help/opening-csv-files-containing-international-language-data/index.html I was able to find a workaround after some research. Opened Excel and then loaded the data in UTF-8 and comma format. This worked! Next in order to proceed to converting CSV to SQL, I downloaded Notepad++ and added the "CSV Lint" plug-in for Notepad++ via https://github.com/BdR76/CSVLint/. I was able to successfully convert the CSV to SQL. </div>
 			   <div class="body-text">
 SSMS (Microsoft SQL Server Management Studio: SSMS 2022 has an error importing data so after some digging, I was able to uninstall SSMS 2022 to SSMS 2019 and was able to import the SQL file. Next, I encountered an error when trying to query from the airbnb database despite a few refreshes. After restarting SSMS, I was able to query the data. Let's move forward with our analysis! </div><br>
 		      
     <div class="gallery-image-container">
                   <img src="../assets/images/notepad.png" class="gallery-image">
-                  <span class="image-caption">Notepad++ CSV Lint</span>
+                  <span class="image-caption">Notepad++ CSV Lint plugin</span>
                 </div>
 		      <br>
 	      
@@ -99,7 +101,7 @@ SSMS (Microsoft SQL Server Management Studio: SSMS 2022 has an error importing d
 Learned: realized SSMS doesn’t support Limit so did some research and used Top 5 instead.
 <br>
 		      <br><b>2)	What are the most popular property types?</b>
-			        <div class="body-text"> 
+			       <div class="body-text"> </div>
 		  
 		      
     <div class="gallery-image-container">
@@ -108,7 +110,7 @@ Learned: realized SSMS doesn’t support Limit so did some research and used Top
                 </div>
 		      <br>
      When it comes to type of the property at Airbnb, it seems to be renting out the entire place comes first such as entire rental unit and entire home with 4,836 and 1,004 units. Then, room in hotel seems to be the next popular option with 706 units. It came to a surprise to me that hotels are listed on Airbnb too. 
-		      <br><br><b>3)	What are the most popular listings?</b><br>  <div class="body-text"> 
+			       <br><br><b>3)	What are the most popular listings?</b><br>  <div class="body-text"> </div>
 		      
     <div class="gallery-image-container">
                   <img src="../assets/images/mostpopularlistingsql.png" class="gallery-image">
@@ -130,16 +132,16 @@ The intention was to confirm that the listings are up-to-date by checking for a 
 
 <br><br>It would be valuable to examine these listings to identify the unique features that contribute to their high occupancy rates. By incorporating similar strategies, one could maximize revenue by creating a similar listing.
 
-<br><br><b>4)	What is the monthly revenue generated by the highest-earning Airbnb hosts in Toronto?</b><br>
+<br><br><b>4)	What is the monthly revenue generated by the highest-earning Airbnb hosts in Toronto?</b><br> <div class="body-text"> </div>
 		      
     <div class="gallery-image-container">
                   <img src="../assets/images/highestearningmonthlyrevenue.png" class="gallery-image">
-                  <span class="image-caption">Shinjuku, Taito, Sumida, Toshima, Minato</span>
+                  <span class="image-caption">Shinjuku, Taito, Sumida, Toshima, and Minato</span>
                 </div>
 		      <br>
 As part of the first business analysis, I aimed to estimate the potential revenue that could be generated through an Airbnb operation. To accomplish this, I computed the monthly revenue for the most frequently booked listings in Toronto. Specifically, I multiplied the nightly price by the number of nights booked in a month. To ensure accuracy, I excluded any listings that were fully booked for the year, as these may be reserved due to high demand on a yearly basis.
 
-		      <br><br><b>5) Top 10 neigherborhoods w/ most popular superhosts?</b><br>
+		      <br><br><b>5) Top 10 neigherborhoods w/ most popular superhosts?</b><br> <div class="body-text"> </div>
 		         <div class="gallery-image-container">
                   <img src="../assets/images/TopNeighborhoodswithsuperhosts.png" class="gallery-image">
                   <span class="image-caption">Shinjuku, Taito, Sumida, Toshima, Minato</span>
@@ -149,7 +151,7 @@ As part of the first business analysis, I aimed to estimate the potential revenu
 Shinjuku, Taito, and Sumida Ku have the highest concentration of superhosts. However, it is crucial not to solely target these areas for cleaning services as they likely have established reputations for maintaining clean accommodations.
 	      </div>
          
-
+<div class="body-text"> </div>
       <!-- Tokyo Airbnb Gallery -->
       <div id="project-gallery">
         <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
@@ -180,21 +182,21 @@ Shinjuku, Taito, and Sumida Ku have the highest concentration of superhosts. How
             -->
             <div class="gallery-image-container half-width">
               <img src="../assets/images/frames.png" class="gallery-image">
-              <span class="image-caption">courtesy of Airbnb</span>
+              <span class="image-caption">Courtesy of Airbnb</span>
             </div>
             <div class="gallery-image-container half-width">
               <img src="../assets/images/TA2.png" class="gallery-image">
-              <span class="image-caption">courtesy of Airbnb</span>
+              <span class="image-caption">Courtesy of Airbnb</span>
             </div>
 		   <div class="gallery-image-container half-width">
               <img src="../assets/images/TA4.png" class="gallery-image">
-              <span class="image-caption">courtesy of Airbnb</span>
+              <span class="image-caption">Courtesy of Airbnb</span>
             </div>
 		   <div class="gallery-image-container half-width">
               <img src="../assets/images/TA3.png" class="gallery-image">
-              <span class="image-caption">courtesy of Airbnb</span>
+              <span class="image-caption">Courtesy of Airbnb</span>
             </div>
-         
+         Thanks for stopping by!
         </div>
       </div>
     </div>
