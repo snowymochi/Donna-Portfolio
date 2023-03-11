@@ -12,7 +12,9 @@ html {
 body {
   margin: 0;
   padding: 0;
- 
+   background-image: url('https://snowymochi.github.io/Donna-Portfolio/assets/images/Cherry_Blossom_45_B.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover;
+	
   background-position: center;
   background-repeat: no-repeat;
 	background:linear-gradient(to bottom, #38bff0  5%, #38bff0 100%);
