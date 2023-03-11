@@ -73,14 +73,33 @@ Listings: Includes data on all the details related to lissting and host info, co
          
 	   <div class="body-text">Issues converting Excel into SQL to load into SQL server: Excel has issues with CSV files that contains international language data. So the problem was occuring during the importing of the CSV file because by default, it doesn't support UTF-8 data. https://www.isurvey.soton.ac.uk/help/opening-csv-files-containing-international-language-data/index.html I was able to find a workaround after some research. Opened Excel and then loaded the data in UTF-8 and comma format. This worked! Next in order to proceed to converting CSV to SQL, I downloaded Notepad++ and added the "CSV Lint" plug-in for Notepad++ via https://github.com/BdR76/CSVLint/. I was able to successfully convert the CSV to SQL. </div>
 			   <div class="body-text">
-SSMS: SSMS 2022 has an error importing data so after some digging, I was able to uninstall SSMS 2022 to SSMS 2019 and was able to import the SQL file. Next, I encountered an error when trying to query from the airbnb database despite a few refreshes. After restarting SSMS, I was able to query the data. Let's move forward with our analysis! </div>
+SSMS: SSMS 2022 has an error importing data so after some digging, I was able to uninstall SSMS 2022 to SSMS 2019 and was able to import the SQL file. Next, I encountered an error when trying to query from the airbnb database despite a few refreshes. After restarting SSMS, I was able to query the data. Let's move forward with our analysis! </div><br>
+		      
+    <div class="gallery-image-container">
+                  <img src="../assets/images/notepad.png" class="gallery-image">
+                  <span class="image-caption">Notepad++ CSV Lint</span>
+                </div>
+		      <br>
 	      
 	      <div class="body-text"> 
-<br> 1)	What are the top five most expensive neighborhoods in Tokyo? 
+<br> 1)	What are the top five most expensive neighborhoods in Tokyo? <br>
+		      
+    <div class="gallery-image-container">
+                  <img src="../assets/images/topfivemostexpensiveneighborhoods.png" class="gallery-image">
+                  <span class="image-caption">Okutama, Komae, Edogawa, Kodaira, and Shinagawa</span>
+                </div>
+		      <br>
  Okutama, Komae, Edogawa, Kodaira, and Shinagawa have the highest average price per day for their listings, respectively $166,000,  $134,445,  $42,146,  $37,106, and $34,700.
 Learned: realized SSMS doesn’t support Limit so did some research and used Top 5 instead.
 <br>
 <br>2)	What are the most popular property types?
+		       <br>
+		      
+    <div class="gallery-image-container">
+                  <img src="../assets/images/most popular property types.png" class="gallery-image">
+                  <span class="image-caption">entire rental, entire home, and hotel room</span>
+                </div>
+		      <br>
      When it comes to type of the property at Airbnb, it seems to be renting out the entire place comes first such as entire rental unit and entire home with 4,836 and 1,004 units. Then, room in hotel seems to be the next popular option with 706 units. It came to a surprise to me that hotels are listed on Airbnb too. 
 <br><br>3)	What are the most popular listings?<br>
 		      
