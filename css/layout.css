@@ -106,6 +106,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  font-size:45px;	
   
 }
 
@@ -113,6 +114,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 34px;
+  font-size:45px;
 }
 
 
