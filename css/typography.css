@@ -71,7 +71,7 @@ body {
 
 .draw-border {
   @include btn-border-drawing(#ffffff, #d1bcce, 4px, bottom, right);
-   z-index: 1;
+   z-index: 10;
 }
 
 
