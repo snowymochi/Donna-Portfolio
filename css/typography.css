@@ -27,7 +27,7 @@ body {
     border: 0 solid transparent;
     box-sizing: border-box;
     content: '';
-    pointer-events: none;
+ 
     position: absolute;
     width: 0; height: 0;
     
@@ -126,6 +126,7 @@ body {
 
 .project-card-text {
   overflow: hidden;
+  position: relative;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 4;
