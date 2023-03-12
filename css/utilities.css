@@ -55,26 +55,6 @@ a.icon-link:hover {
 }
 
 
-/* Button Styling */
-
-a.button {
-  padding: 8px 16px;
-  border: 3px solid #141414;
-  border-radius: 50px;
-  color: #748891;
-  text-decoration: none;
-  width: fit-content;
-  display: flex;
-  gap: 5px;
-  align-items: center;
-}
-
-a.button:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  cursor: hand;
-}
-
 
 /* Footer Styling */
 
