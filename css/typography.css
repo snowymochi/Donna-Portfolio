@@ -1,6 +1,7 @@
 body {
   font-family: 'Quicksand', sans-serif;
   src: url('../assets/Quicksand-VariableFont_wght.ttf) format('truetype');
+     overflow: auto;
 }
 
 
