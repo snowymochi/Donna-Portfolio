@@ -96,6 +96,7 @@ body {
   display: flex; 
   align-items: center;
   justify-content: center;
+  height: auto;
   min-height: 100vh;
     z-index: 2;
 }
