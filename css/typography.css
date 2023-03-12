@@ -71,6 +71,7 @@ body {
 
 .draw-border {
   @include btn-border-drawing(#ffffff, #d1bcce, 4px, bottom, right);
+   z-index: 1;
 }
 
 
@@ -96,6 +97,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+    z-index: 2;
 }
 
 
