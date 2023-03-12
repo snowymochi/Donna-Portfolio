@@ -7,16 +7,7 @@ html {
   -moz-text-size-adjust: none;
   -ms-text-size-adjust: none;
 }
-body {
-  margin: 0;
-  padding: 0;
-   background-image: url('https://snowymochi.github.io/Donna-Portfolio/assets/images/Cherry_Blossom_45_B.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: black !important; 
-  font-size: 15px;
-}
+
 <a href="#" class="dark-mode">Dark Mode</a>
 .dark-mode {
 	box-shadow: 0px 10px 14px -7px #2cdaf5;
@@ -42,6 +33,20 @@ body {
 	position:relative;
 	top:1px;
 }
+
+
+body {
+  margin: 0;
+  padding: 0;
+   background-image: url('https://snowymochi.github.io/Donna-Portfolio/assets/images/Cherry_Blossom_45_B.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black !important; 
+  font-size: 15px;
+}
+
+
         
 /* Main Page Layout */
 #main-content {
