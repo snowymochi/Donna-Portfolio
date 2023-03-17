@@ -9,3 +9,19 @@ function myFunction() {
   element.classList.toggle("dark-mode");
 }
 
+window.addEventListener('scroll', function() {
+  var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+  var scrollUpButton = document.getElementById('scroll-up-button');
+  if (scrollPosition > 100) {
+    scrollUpButton.style.display = 'block';
+  } else {
+    scrollUpButton.style.display = 'none';
+  }
+});
+
+document.getElementById('scroll-up-button').addEventListener('click', function() {
+  window.scrollBy({
+    top: -100,
+    behavior: 'smooth'
+  });
+});
