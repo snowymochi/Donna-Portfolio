@@ -168,7 +168,7 @@ text-align: center;
 #project-header {
   display: flex;
  color:black;
-	flex-direction: column;
+flex-direction: column;
   gap: 16px;
 	
 }
@@ -189,6 +189,7 @@ text-align: center;
   display: flex;
   flex-direction: column;
   gap: 34px;
+ line-height: 1.5;
 }
     /* Project Gallery */
     #project-gallery {
