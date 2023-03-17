@@ -81,10 +81,10 @@ body {
 //=== Button styling, semi-ignore
 
 .btn {
-  -webkit-border-radius: 19;
-  -moz-border-radius: 19;
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
   border-radius: 19px;
-  font-family: Arial;
+  font-family: Calibri;
   color: #f6f2f7;
   font-size: 20px;
   background: #dbc0d7;
