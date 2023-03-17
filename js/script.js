@@ -21,7 +21,7 @@ window.addEventListener('scroll', function() {
 
 document.getElementById('scroll-up-button').addEventListener('click', function() {
   window.scrollBy({
-    top: -100,
+    top: -window.pageYOffset || document.documentElement.scrollTop,
     behavior: 'smooth'
   });
 });
