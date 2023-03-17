@@ -41,7 +41,7 @@ body {
     #{$vertical}: 0; 
     #{$horizontal}: 0;
     
-    border-radius: 19px;
+    border-radius: 26px;
     
   }
 
@@ -109,7 +109,7 @@ body {
 
 //=== Pen styling, ignore
 body { 
-  background: #f5daf2;
+  background: #dbc0d7;
   display: flex; 
   align-items: center;
   justify-content: center;
@@ -143,6 +143,7 @@ body {
   font-size:26px;
   font-weight: 500;
   line-height: 1.5;
+     background-color: #f7e6ff;
   z-index: 10;
 }
 
