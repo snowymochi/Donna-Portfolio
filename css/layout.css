@@ -47,7 +47,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   color: black !important; 
-  font-size: 25px;
+  font-size: 20px;
 	line-height: 1.5;
 }
 
@@ -106,7 +106,7 @@ padding-right: 20px;
 }
 
 .section-title {
-  font-size: 36px;
+  font-size: 26px;
 text-align: center;
  font-family: 'Indie Flower', cursive;
   font-weight: bold;
@@ -118,14 +118,14 @@ text-align: center;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  font-size: 25px;	
+  font-size: 20px;	
   
 }
 .about-section-content {
   display: flex;
   flex-direction: column;
   gap: 34px;
-  font-size: 25px;
+  font-size: 20px;
 }
 /* Project Section */
 #my-work-section {
