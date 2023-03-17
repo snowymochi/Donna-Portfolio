@@ -80,7 +80,7 @@ body {
 
 //=== Button styling, semi-ignore
 .btn {
-  background: none;
+  background: #f5f5f5;
   border: none;
   cursor: pointer;
   line-height: 1.5;
@@ -91,6 +91,8 @@ body {
   
   &:focus { outline: 2px dotted #641dc2; }
 }
+
+
 
 //=== Pen styling, ignore
 body { 
