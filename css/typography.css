@@ -88,7 +88,7 @@ body {
 .btn {
   -webkit-border-radius: 19px;
   -moz-border-radius: 19px;
-  border-radius: 19px;
+  border-radius: 50% / 25%;
   font-family: Calibri;
   color: #f6f2f7;
   font-size: 20px;
