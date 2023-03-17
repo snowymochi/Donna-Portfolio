@@ -139,10 +139,12 @@ text-align: center;
     /* Project Cards */
     .project-card {
       max-width: calc((100% - 32px) / 3);
-	    position: relative;
+     position: relative;
       display: flex;
       flex-direction: column;
       gap: 34px;
+	     background-color: #f9f9f9;
+  padding: 10px;
     }
     .project-card-text-container {
       flex-direction: column;
