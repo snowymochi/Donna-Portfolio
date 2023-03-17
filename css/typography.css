@@ -4,6 +4,9 @@ body {
      overflow: auto;
 }
 
+.about h1 {
+  text-align: center;
+}
 
 .nav-title {
   font-weight: 700;
