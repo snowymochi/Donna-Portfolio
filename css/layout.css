@@ -94,6 +94,19 @@ padding-right: 20px;
   flex-basis: 50%;
   margin-left: -50;
 }
+
+
+.portfolio-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* adjust this value to fit your needs */
+}
+
+.section-title {
+  font-size: 36px;
+}
+
 /* About Section */
 #about-section {
   display: flex;
