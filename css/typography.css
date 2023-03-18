@@ -78,7 +78,7 @@ body {
 }
 
 .draw-border {
-  @include btn-border-drawing(#dbc0d7, #d1bcce, 4px, bottom, right);
+  @include btn-border-drawing(#black, #d1bcce, 4px, bottom, right);
    z-index: 10;
 }
 
@@ -91,9 +91,9 @@ body {
   -moz-border-radius: 19px;
   border-radius: 50% / 25%;
   font-family: Calibri;
-  color: black;
+  color: white;
   font-size: 20px;
-  background: #dbc0d7;
+  background: #black;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
