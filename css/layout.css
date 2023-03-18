@@ -213,6 +213,7 @@ flex-direction: column;
       display: flex;
       flex-direction: column;
       gap: 10px;
+	text-align: center;
     }
     .gallery-image-container.half-width {
       width: calc((100% - 16px) / 2);
