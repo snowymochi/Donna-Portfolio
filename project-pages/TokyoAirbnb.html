@@ -54,9 +54,10 @@
   <div class="main-title"><b>Tokyo Airbnb (2022) Data Analysis using SQL</b></div>
 </div>
 	       <div class="subheader-text"><b>Inspiration</b></div>
-	      <div>
+	    
+ <div>
   <button onclick="toggleInspiration()">Show Inspiration</button>
-  <div id="inspiration">
+  <div id="inspiration" style="display:none;">
     <p>I am thrilled to share my Airbnb data analysis with you, which was inspired by my recent trip to Tokyo, Japan in November 2022 - my first visit in 7 years! When I first traveled to Japan in 2015, it was my very first solo trip and I was lucky to have stayed with such welcoming Airbnb hosts. I was able to secure various Airbnbs for just $55-$75 per night in different districts of Tokyo, and later in Osaka as well. My Osaka host even left me snacks and local pamphlets of tourist attractions in English. This time around, I decided to take a last-minute trip to Tokyo after being impacted by workforce reduction at my job at Domino Data Lab. Thankfully, borders had reopened for tourists in October, and I was able to travel from the US along with tourists from Hong Kong and Taiwan.</p>
   </div>
 </div>
@@ -66,12 +67,13 @@ function toggleInspiration() {
   var x = document.getElementById("inspiration");
   if (x.style.display === "none") {
     x.style.display = "block";
+    document.querySelector("button").textContent = "Hide Inspiration";
   } else {
     x.style.display = "none";
+    document.querySelector("button").textContent = "Show Inspiration";
   }
 }
-</script>
-	      
+</script> 
 	      
 	      
 	      
